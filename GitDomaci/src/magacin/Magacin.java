@@ -44,12 +44,16 @@ public class Magacin implements MagacinInterfejs{
 
 	@Override
 	public void dodajArtikal(Artikal a) {
-		artikli.add(0, a);
+
+		artikli.add(a);
+
 	}
 
 	@Override
 	public void izbaciArtikal(Artikal a) {
-		artikli.remove(a);		
+
+		artikli.remove(a);
+
 	}
 
 	@Override
