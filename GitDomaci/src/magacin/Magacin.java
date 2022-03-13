@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 import artikal.Artikal;
+import interfejs.MagacinInterfejs;
 
-public class Magacin {
+public class Magacin implements MagacinInterfejs{
 
 	private List<Artikal>artikli=new LinkedList<Artikal>();
 
@@ -39,6 +40,24 @@ public class Magacin {
 	@Override
 	public String toString() {
 		return "Magacin [artikli=" + artikli + "]";
+	}
+
+	@Override
+	public void dodajArtikal(Artikal a) {
+		
+		
+	}
+
+	@Override
+	public void izbaciArtikal(Artikal a) {
+		
+		
+	}
+
+	@Override
+	public Artikal vratiInformacijeOArtiklu(Artikal a) {
+		
+		return null;
 	}
 	
 	
