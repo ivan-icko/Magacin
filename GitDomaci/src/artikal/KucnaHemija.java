@@ -1,6 +1,7 @@
 package artikal;
 
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class KucnaHemija extends Artikal {
 	private Date rokTrajanja;
@@ -10,7 +11,9 @@ public class KucnaHemija extends Artikal {
 	}
 
 	public void setRokTrajanja(Date rokTrajanja) {
+		if(rokTrajanja.after(new Date())) {
 		this.rokTrajanja = rokTrajanja;
+		}
 	}
 
 	@Override
