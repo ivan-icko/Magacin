@@ -56,7 +56,7 @@ public class Artikal {
 	}
 	@Override
 	public String toString() {
-		return "Artikal [naziv=" + naziv + ", sifra=" + sifra + ", opis=" + opis + ", kolicina=" + kolicina + "]";
+		return "Artikal ima sledece atribute: naziv=" + naziv + ", sifra=" + sifra + ", opis=" + opis + ", kolicina=" + kolicina;
 	}
 	
 	
